@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-*Battle for the Past: How Politics Rewrites History* published by Palgrave Macmillan (English translation of the 2022 Russian original).
+_Battle for the Past: How Politics Rewrites History_ published by Palgrave Macmillan (English translation of the 2022 Russian original).

@@ -124,7 +124,9 @@ layout: default
                       <li class="list-group-item">
                         {% if entry.icon %}<i class="{{ entry.icon }} fa-fw"></i> {% endif %}
                         {% if entry.reference and entry.reference != '' %}
-                          <a href="{{ entry.reference }}" target="_blank" rel="noopener noreferrer">{{ entry.name | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+                          <a href="{{ entry.reference }}" target="_blank" rel="noopener noreferrer">
+                            {{- entry.name | markdownify | remove: '<p>' | remove: '</p>' -}}
+                          </a>
                         {% else %}
                           {{ entry.name | markdownify | remove: '<p>' | remove: '</p>' }}
                         {% endif %}

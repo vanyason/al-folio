@@ -12,6 +12,7 @@ toc:
 <div class="cv">
 
 <a class="anchor" id="lectures-and-talks"></a>
+
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Select lectures and talks</h2>
   <ul class="card-text font-weight-light list-group list-group-flush">
@@ -33,6 +34,7 @@ toc:
 </div>
 
 <a class="anchor" id="op-eds-and-media"></a>
+
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Op-eds, commentary, and interviews</h2>
   <ul class="card-text font-weight-light list-group list-group-flush">
@@ -43,6 +45,7 @@ toc:
 </div>
 
 <a class="anchor" id="policy-memos"></a>
+
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Select policy memos for PONARS Eurasia</h2>
   <ul class="card-text font-weight-light list-group list-group-flush">

@@ -11,7 +11,7 @@ layout: default
 
   <article>
     {% assign contact_format = page.cv_format %}
-    {% if contact_format == nil or contact_format == '' %}
+    {% if contact_format == null or contact_format == '' %}
       {% if site.data.cv and site.data.cv.cv %}
         {% assign contact_format = 'rendercv' %}
       {% elsif site.data.resume %}

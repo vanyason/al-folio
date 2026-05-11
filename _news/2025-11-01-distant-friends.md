@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-*Distant Friends and Intimate Enemies: A History of American–Russian Relations*, co-authored with David S. Foglesong and Victoria Zhuravleva, is out from Cambridge University Press.
+_Distant Friends and Intimate Enemies: A History of American–Russian Relations_, co-authored with David S. Foglesong and Victoria Zhuravleva, is out from Cambridge University Press.

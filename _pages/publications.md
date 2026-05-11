@@ -12,6 +12,7 @@ toc:
 {% include bib_search.liquid %}
 
 <a class="anchor" id="books-english"></a>
+
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Books and monographs — in English</h2>
   <div class="publications">
@@ -20,6 +21,7 @@ toc:
 </div>
 
 <a class="anchor" id="books-russian"></a>
+
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Books and monographs — in Russian</h2>
   <div class="publications">
@@ -28,6 +30,7 @@ toc:
 </div>
 
 <a class="anchor" id="articles-chapters"></a>
+
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Recent articles and book chapters in English</h2>
   <div class="publications">
@@ -36,6 +39,7 @@ toc:
 </div>
 
 <a class="anchor" id="edited-volumes"></a>
+
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Select edited volumes (in Russian)</h2>
   <div class="publications">
@@ -44,6 +48,7 @@ toc:
 </div>
 
 <a class="anchor" id="translations"></a>
+
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Translation projects</h2>
   <div class="publications">

@@ -48,7 +48,7 @@ $(document).ready(function () {
             }
           });
         },
-        { rootMargin: "0px 0px -10% 0px", threshold: 0.1 },
+        { rootMargin: "0px 0px -10% 0px", threshold: 0.1 }
       );
       revealTargets.forEach(function (el) {
         revealObserver.observe(el);
