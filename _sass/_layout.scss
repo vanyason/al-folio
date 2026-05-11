@@ -4,6 +4,16 @@
 
 @use "variables" as v;
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
@@ -14,8 +24,32 @@ body {
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  .anchor {
     scroll-margin-top: 66px;
+  }
+}
+
+// Reveal-on-scroll animation for card sections (CV + Publications)
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.5s ease-out,
+    transform 0.5s ease-out;
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 

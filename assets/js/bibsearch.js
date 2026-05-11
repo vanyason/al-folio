@@ -52,6 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const updateInputField = () => {
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
+    // Skip if the hash matches an in-page anchor (e.g. sidebar TOC link), not a search query
+    if (hashValue && document.getElementById(hashValue)) {
+      return;
+    }
     document.getElementById("bibsearch").value = hashValue;
     filterItems(hashValue);
   };

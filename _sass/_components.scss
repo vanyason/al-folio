@@ -90,6 +90,240 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// About page profile card
+
+.about-page {
+  .about-profile-card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    text-align: center;
+
+    .profile-photo {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    figure {
+      margin: 0 0 1.25rem;
+    }
+
+    .profile-name {
+      margin: 0.5rem 0 0.35rem;
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .profile-role {
+      margin: 0 0 0.75rem;
+      font-size: 0.95rem;
+      color: var(--global-text-color-light, var(--global-text-color));
+      opacity: 0.85;
+    }
+
+    .profile-more-info {
+      margin-bottom: 0.75rem;
+      font-family: monospace;
+      font-size: 0.85rem;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .profile-social {
+      margin-top: 0.5rem;
+      font-size: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+
+      a {
+        line-height: 1;
+
+        i::before {
+          color: var(--global-text-color);
+          transition-property: all 0.2s ease-in-out;
+        }
+
+        &:hover {
+          text-decoration: none;
+
+          i::before {
+            color: var(--global-theme-color);
+          }
+        }
+
+        img,
+        svg {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+
+    .profile-contact-note {
+      margin-top: 0.75rem;
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+  }
+
+  .about-content {
+    > :first-child {
+      margin-top: 0;
+    }
+  }
+
+  .about-divider {
+    margin: 2rem 0 1.5rem;
+    border: 0;
+    border-top: 1px solid var(--global-divider-color);
+    opacity: 1;
+  }
+
+  .about-section-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .about-news,
+  .about-latest-posts,
+  .about-selected-papers {
+    text-align: left;
+
+    .publications h1 {
+      text-align: left;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .about-header {
+      display: flex;
+      align-items: center;
+      gap: 1.75rem;
+    }
+
+    .about-header--right {
+      .about-profile-card {
+        order: 2;
+      }
+    }
+
+    .about-profile-card {
+      width: 34%;
+      max-width: 320px;
+      flex: 0 0 auto;
+      margin-bottom: 0;
+    }
+
+    .about-content {
+      flex: 1 1 0;
+      min-width: 0;
+    }
+  }
+}
+
+// Contact page
+
+.contact-page {
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+    padding: 0.65rem 0;
+
+    & + .contact-item {
+      border-top: 1px solid var(--global-divider-color);
+    }
+  }
+
+  .contact-item-icon {
+    flex: 0 0 auto;
+    width: 1.5rem;
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: var(--global-theme-color);
+  }
+
+  .contact-item-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .contact-item-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light, var(--global-text-color));
+    opacity: 0.7;
+  }
+
+  .contact-item-value {
+    font-size: 1rem;
+    color: var(--global-text-color);
+    word-break: break-word;
+  }
+
+  a.contact-item-value:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .contact-extra {
+    margin-top: 1.5rem;
+  }
+
+  .contact-page-social {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+
+    a {
+      line-height: 1;
+
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+
+      img,
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+}
+
 // CV
 
 .cv {

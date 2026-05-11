@@ -1,0 +1,174 @@
+---
+layout: default
+---
+<div class="post contact-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {% assign contact_format = page.cv_format %}
+    {% if contact_format == nil or contact_format == '' %}
+      {% if site.data.cv and site.data.cv.cv %}
+        {% assign contact_format = 'rendercv' %}
+      {% elsif site.data.resume %}
+        {% assign contact_format = 'jsonresume' %}
+      {% endif %}
+    {% endif %}
+
+    {% if contact_format == 'rendercv' and site.data.cv and site.data.cv.cv %}
+      {% assign cv = site.data.cv.cv %}
+      {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website or cv.address %}
+        <ul class="contact-list">
+          {% if cv.name %}
+            <li class="contact-item">
+              <i class="fa-solid fa-user contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-body">
+                <span class="contact-item-label">Full Name</span>
+                <span class="contact-item-value">{{ cv.name }}</span>
+              </div>
+            </li>
+          {% endif %}
+          {% if cv.label %}
+            <li class="contact-item">
+              <i class="fa-solid fa-briefcase contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-body">
+                <span class="contact-item-label">Professional Title</span>
+                <span class="contact-item-value">{{ cv.label }}</span>
+              </div>
+            </li>
+          {% endif %}
+          {% if cv.email %}
+            <li class="contact-item">
+              <i class="fa-solid fa-envelope contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-body">
+                <span class="contact-item-label">Email (personal)</span>
+                <a class="contact-item-value" href="mailto:{{ cv.email }}">{{ cv.email }}</a>
+              </div>
+            </li>
+          {% endif %}
+          {% if cv.work_email %}
+            <li class="contact-item">
+              <i class="fa-solid fa-envelope-open-text contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-body">
+                <span class="contact-item-label">Email (work)</span>
+                <a class="contact-item-value" href="mailto:{{ cv.work_email }}">{{ cv.work_email }}</a>
+              </div>
+            </li>
+          {% endif %}
+          {% if cv.phone %}
+            <li class="contact-item">
+              <i class="fa-solid fa-phone contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-body">
+                <span class="contact-item-label">Phone</span>
+                <span class="contact-item-value">{{ cv.phone }}</span>
+              </div>
+            </li>
+          {% endif %}
+          {% if cv.address %}
+            <li class="contact-item">
+              <i class="fa-solid fa-location-dot contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-body">
+                <span class="contact-item-label">Location</span>
+                <span class="contact-item-value">
+                  {% if cv.address.street %}{{ cv.address.street }}, {% endif %}
+                  {% if cv.address.city %}{{ cv.address.city }}, {% endif %}
+                  {% if cv.address.region %}{{ cv.address.region }} {% endif %}
+                  {% if cv.address.postalCode %}{{ cv.address.postalCode }}{% endif %}
+                </span>
+              </div>
+            </li>
+          {% endif %}
+          {% if cv.website %}
+            <li class="contact-item">
+              <i class="fa-solid fa-globe contact-item-icon" aria-hidden="true"></i>
+              <div class="contact-item-body">
+                <span class="contact-item-label">Website</span>
+                <a class="contact-item-value" href="{{ cv.website }}" target="_blank" rel="noopener">{{ cv.website }}</a>
+              </div>
+            </li>
+          {% endif %}
+        </ul>
+      {% endif %}
+
+    {% elsif contact_format == 'jsonresume' and site.data.resume and site.data.resume.basics %}
+      {% assign basics = site.data.resume.basics %}
+      <ul class="contact-list">
+        {% if basics.name %}
+          <li class="contact-item">
+            <i class="fa-solid fa-user contact-item-icon" aria-hidden="true"></i>
+            <div class="contact-item-body">
+              <span class="contact-item-label">Full Name</span>
+              <span class="contact-item-value">{{ basics.name }}</span>
+            </div>
+          </li>
+        {% endif %}
+        {% if basics.label %}
+          <li class="contact-item">
+            <i class="fa-solid fa-briefcase contact-item-icon" aria-hidden="true"></i>
+            <div class="contact-item-body">
+              <span class="contact-item-label">Professional Title</span>
+              <span class="contact-item-value">{{ basics.label }}</span>
+            </div>
+          </li>
+        {% endif %}
+        {% if basics.email %}
+          <li class="contact-item">
+            <i class="fa-solid fa-envelope contact-item-icon" aria-hidden="true"></i>
+            <div class="contact-item-body">
+              <span class="contact-item-label">Email</span>
+              <a class="contact-item-value" href="mailto:{{ basics.email }}">{{ basics.email }}</a>
+            </div>
+          </li>
+        {% endif %}
+        {% if basics.phone %}
+          <li class="contact-item">
+            <i class="fa-solid fa-phone contact-item-icon" aria-hidden="true"></i>
+            <div class="contact-item-body">
+              <span class="contact-item-label">Phone</span>
+              <span class="contact-item-value">{{ basics.phone }}</span>
+            </div>
+          </li>
+        {% endif %}
+        {% if basics.location %}
+          <li class="contact-item">
+            <i class="fa-solid fa-location-dot contact-item-icon" aria-hidden="true"></i>
+            <div class="contact-item-body">
+              <span class="contact-item-label">Location</span>
+              <span class="contact-item-value">
+                {% if basics.location.address %}{{ basics.location.address }}, {% endif %}
+                {% if basics.location.city %}{{ basics.location.city }}, {% endif %}
+                {% if basics.location.region %}{{ basics.location.region }} {% endif %}
+                {% if basics.location.postalCode %}{{ basics.location.postalCode }}{% endif %}
+              </span>
+            </div>
+          </li>
+        {% endif %}
+        {% if basics.url %}
+          <li class="contact-item">
+            <i class="fa-solid fa-globe contact-item-icon" aria-hidden="true"></i>
+            <div class="contact-item-body">
+              <span class="contact-item-label">Website</span>
+              <a class="contact-item-value" href="{{ basics.url }}" target="_blank" rel="noopener">{{ basics.url }}</a>
+            </div>
+          </li>
+        {% endif %}
+      </ul>
+
+    {% else %}
+      <p>No contact data found.</p>
+    {% endif %}
+
+    {% assign trimmed_content = content | strip %}
+    {% if trimmed_content != '' %}
+      <div class="contact-extra">{{ content }}</div>
+    {% endif %}
+
+    {% if site.data.socials %}
+      <div class="contact-page-social">{% social_links %}</div>
+    {% endif %}
+  </article>
+</div>

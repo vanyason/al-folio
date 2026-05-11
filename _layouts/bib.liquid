@@ -258,6 +258,30 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.cambridge %}
+        <a href="{{ entry.cambridge }}" class="btn btn-sm z-depth-0" role="button">Cambridge</a>
+      {% endif %}
+      {% if entry.springer %}
+        <a href="{{ entry.springer }}" class="btn btn-sm z-depth-0" role="button">Springer</a>
+      {% endif %}
+      {% if entry.bloomsbury %}
+        <a href="{{ entry.bloomsbury }}" class="btn btn-sm z-depth-0" role="button">Bloomsbury</a>
+      {% endif %}
+      {% if entry.anthem %}
+        <a href="{{ entry.anthem }}" class="btn btn-sm z-depth-0" role="button">Anthem</a>
+      {% endif %}
+      {% if entry.alpina %}
+        <a href="{{ entry.alpina }}" class="btn btn-sm z-depth-0" role="button">Alpina</a>
+      {% endif %}
+      {% if entry.nlo %}
+        <a href="{{ entry.nlo }}" class="btn btn-sm z-depth-0" role="button">NLO</a>
+      {% endif %}
+      {% if entry.ozon %}
+        <a href="{{ entry.ozon }}" class="btn btn-sm z-depth-0" role="button">Ozon</a>
+      {% endif %}
+      {% if entry.rusneb %}
+        <a href="{{ entry.rusneb }}" class="btn btn-sm z-depth-0" role="button">RusNEB</a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}

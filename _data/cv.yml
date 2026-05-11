@@ -1,189 +1,263 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Ivan Ivanovich Kurilla
+  label: Doctor of Sciences (History), Professor
+  email: ivan.i.kurilla@gmail.com
+  work_email: kurilla.3@osu.edu
+  location: Columbus, Ohio, USA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Historian of U.S.–Russian relations, American foreign policy, the international dimensions of the American Civil War, and the politics of memory in contemporary Russia. Visiting Professor of History at [The Ohio State University](https://history.osu.edu/) (2025–2026). [ORCID 0000-0001-7144-2007](https://orcid.org/0000-0001-7144-2007) · [Web of Science ResearcherID F-4725-2013](https://www.webofscience.com/wos/author/record/F-4725-2013). Op-eds, public lectures, and media appearances are listed on the [Talks & Media](/talks/) page.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+    - network: ORCID
+      username: 0000-0001-7144-2007
+    - network: Web of Science
+      username: F-4725-2013
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: Department of History
+    city: Columbus
+    region: Ohio
+    postalCode: ""
     countryCode: US
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+    Awards:
+      - title: Prosvetitel Award (Best non-fiction book in Russian, 2024)
+        authors:
+          - Prosvetitel Foundation
+        date: 2024
+        awarder: Prosvetitel Foundation
+        summary: "For *Americans and All the Rest: Origin and Meaning of the U.S. Foreign Policy* (Alpina, 2024)."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - title: Politprosvet Award — Shortlist
+        authors:
+          - Politprosvet Foundation
+        date: 2022
+        awarder: Politprosvet Foundation
+        summary: "For *Battle for the Past: How Politics Changes History* (Alpina, 2022)."
+
+      - title: Prosvetitel Award — Longlist
+        date: 2018
+        awarder: Prosvetitel Foundation
+        summary: For *Frenemies* (NLO, 2018).
+
+      - title: Prosvetitel Award — Shortlist
+        date: 2017
+        awarder: Prosvetitel Foundation
+        summary: For *History, or the Past in Present* (EU Press, 2017).
+
+      - title: Fulbright Visiting Scholar
+        date: 2001
+        awarder: Fulbright Program
+        summary: History Department, Dartmouth College.
+
+    Current Research Projects:
+      - bullet: "**On the publication stage —** *[Echoes of the American Civil War Abroad: Perceptions, Identities, and Historical Memory](https://www.bloomsbury.com/us/echoes-of-the-american-civil-war-abroad-9781666920314/)*, coedited with Victoria Zhuravleva (Bloomsbury, forthcoming September 2026)."
+
+      - bullet: "**On the publication stage —** *Americans and All the Rest: Identity and Foreign Policy in U.S. History* — English translation of the Prosvetitel-winning Russian original (Palgrave Macmillan, forthcoming June 2026)."
+
+      - bullet: "**On the research stage —** *Routledge Handbook of Contemporary Russian History*, co-edited with Vladimir Gel'man and Sari Autio-Sarasmo (both Helsinki University, Finland), under contract with Routledge."
+
+      - bullet: "**On the research stage —** *Russia and the American Civil War* — book-length project."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: The Ohio State University
+        position: Visiting Professor of History
+        location: Columbus, Ohio, US
+        start_date: 2025-08-15
+        end_date: 2026-08-14
+
+      - company: Middlebury College, Summer Russian Language School
+        position: Professor of History
+        location: Middlebury, Vermont, US
+        start_date: 2025-06
+        end_date: 2025-08
+
+      - company: Wellesley College
+        position: International Scholar in Residence
+        location: Wellesley, Massachusetts, US
+        start_date: 2025-01
+        end_date: 2025-05
+
+      - company: Bowdoin College
+        position: Visiting Tallman Scholar in Russian, East European, and Eurasian Studies
+        location: Brunswick, Maine, US
+        start_date: 2024-09
+        end_date: 2024-12
+
+      - company: Wellesley College
+        position: Mary L. Cornille Distinguished Visiting Professor in the Humanities
+        location: Wellesley, Massachusetts, US
+        start_date: 2024-01
+        end_date: 2024-05
+
+      - company: European University at St. Petersburg
+        position: Professor
+        location: St. Petersburg, Russia
+        start_date: 2015
+        end_date: 2024
         highlights:
-          - Relativity
-          - Description 2.
+          - Director, Program of Regional Cooperation (2015–2022)
+          - Academic Director, IMARES (International Master of Arts in Russian and Eurasian Studies, 2016–2022)
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: St. Petersburg State University, Smolny Faculty of Liberal Arts and Sciences
+        position: Professor
+        location: St. Petersburg, Russia
+        start_date: 2015-01
+        end_date: 2015-06
+
+      - company: Volgograd State University
+        position: Professor; Head, Department of International Relations and Area Studies
+        location: Volgograd, Russia
+        start_date: 2006
+        end_date: 2015
         highlights:
-          - Description 1.
-          - Description 2.
+          - Head, Center for North American Studies *Americana* (2008–2015)
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: George Washington University, Institute for European, Russian and Eurasian Studies
+        position: Visiting Scholar
+        location: Washington, D.C., US
+        start_date: 2012
+        end_date: 2013
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Volgograd State University
+        position: Associate Professor / Full Professor
+        location: Volgograd, Russia
+        start_date: 1995
+        end_date: 2006
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Vice Rector for International Programs (2002–2003)
+          - Deputy Dean, Department of History and Philosophy (1995–1998)
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Institute of Universal History, Russian Academy of Sciences
+        position: Research Fellow, Center for North American Studies
+        location: Moscow, Russia
+        start_date: 2004
+        end_date: 2005
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Dartmouth College
+        position: Fulbright Visiting Scholar, History Department
+        location: Hanover, New Hampshire, US
+        start_date: 2001
+        end_date: 2002
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: Moscow State University, Department of Modern and Contemporary History
+        position: Research Fellow
+        location: Moscow, Russia
+        start_date: 1994-01
+        end_date: 1994-06
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - company: Volgograd State University
+        position: Assistant Professor
+        location: Volgograd, Russia
+        start_date: 1991
+        end_date: 1995
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Education:
+      - institution: Ministry of Education and Science of the Russian Federation
+        location: Moscow, Russia
+        area: History
+        studyType: Professor (academic rank)
+        start_date: 2011
+        end_date: 2011
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - institution: Institute of Universal History, Russian Academy of Sciences
+        location: Moscow, Russia
+        area: History
+        studyType: Doktorskaya Dissertation (Habilitation, Full professorship)
+        start_date: 2005
+        end_date: 2005
+
+      - institution: Institute of Universal History, Russian Academy of Sciences
+        location: Moscow, Russia
+        area: History
+        studyType: Kandidatskaya Dissertation (Ph.D. equivalent)
+        start_date: 1996
+        end_date: 1996
+
+      - institution: Volgograd State University
+        location: Volgograd, Russia
+        area: History
+        studyType: Diploma with Honors (MA level)
+        start_date: 1986
+        end_date: 1991
+
+    Teaching — In English:
+      - bullet: "*Civil War and Reconstruction: Global Perspectives* (BA) — The Ohio State University, Spring 2026."
+      - bullet: "*History of U.S.–Russian Relations* (BA) — The Ohio State University, Spring 2026."
+      - bullet: "*Uses & Misuses of History: History, Memory, & Politics in Contemporary World* (BA) — The Ohio State University, Autumn 2025."
+      - bullet: "*How Distant Friends Became Intimate Enemies: Russian–American Relations in Past and Present* (BA) — Wellesley College, Spring 2025."
+      - bullet: "*Frenemies: History of Russian-American Relations* (BA) — Bowdoin College, Fall 2024."
+      - bullet: "*History of US–Russian Relations from a Constructivist Perspective* (MA, IMARES) — European University at St. Petersburg, 2015–2022."
+      - bullet: "*Historical Memory and Historical Politics* (BA) — Smolny (SPbU–Bard), Spring 2015."
+      - bullet: "*Introduction into Russian History* (BA, U.S. Exchange students) — Volgograd State University, 1993–2010."
+
+    Teaching — In Russian:
+      - bullet: "*Russian–U.S. Relations throughout History and to the Present* (MA in Russian) — The Ohio State University, Fall 2025."
+      - bullet: "*History of Russian–American Relations* (MA) — Middlebury College Summer Language School, 2025."
+      - bullet: "*Battle for the Past: Use and Misuse of History* (MA) — Middlebury College Summer Language School, 2025."
+      - bullet: "*History and Politics* (MA, Political Science) — European University at St. Petersburg, 2015–2023."
+      - bullet: "*Introduction into American Studies* (Political Science) — European University at St. Petersburg, 2015–2023."
+      - bullet: "**Volgograd State University, 1992–2014 —** *U.S. History* (BA, American Studies, 1999–2014); *History of Historical Knowledge* (BA, History, 1993–2014); *Modern History of Europe and America* (1992–1999)."
+      - bullet: "Advised students' MA (in Russian and English) and *Kandidatskaya* (PhD-equivalent) dissertations."
+
+    Editorial Boards:
+      - name: "*Americana* (Volgograd State University) — Editor-in-Chief, vols. 10–16 (2008–2021); Deputy Chief Editor, vols. 1–9 (1997–2007)."
+        icon: fa-solid fa-book
+
+      - name: "*Amerikanskii Ezhegodnik* (American Yearbook, Russian Academy of Sciences) — Editorial Board (2008–present)."
+        icon: fa-solid fa-book
+
+      - name: "[*The Journal of Russian American Studies*](https://newprairiepress.org/jrs/) — Editorial Board (2017–present)."
+        icon: fa-solid fa-book
+
+      - name: "[*REGION: Regional Studies of Russia, Eastern Europe, and Central Asia*](https://www.slavica.com/journal/region) — Editorial Board (2020–present)."
+        icon: fa-solid fa-book
+
+      - name: "[*Filosofia: Journal of the Higher School of Economics*](https://philosophy.hse.ru/en/journal) — Editorial Board (2022–present)."
+        icon: fa-solid fa-book
+
+      - name: "*Vestnik Volgogradskogo Universiteta. Seria 4: Istoria. Regionovedenie. Mezhdunarodnye otnoshenia* — Editor-in-Chief (Sept 2015 – July 2024); member of Editorial Board (2009–present)."
+        icon: fa-solid fa-book
+
+    Conferences Organized:
+      - bullet: "Chair, *Americans in Revolutionary Petrograd* (International), St. Petersburg, October 2017."
+      - bullet: "Chair, *Russia and the American Civil War* (All-Russian), Volgograd, October 2011."
+      - bullet: "Co-chair (with Victoria Zhuravleva), *Russian/Soviet Studies in the United States, American Studies in Russia: Mutual Representations* (International), Russian State University for the Humanities, Moscow, February 2011."
+      - bullet: "Chair, *Concept of Human Security in Canada and Russia* (International), 2009."
+      - bullet: "Chair, *Russia and Countries of the American Continent: The Experience of Historical Relationships* (International), 2007."
+      - bullet: "Chair, *10 Years of the Commonwealth of Independent States* (International), Volgograd State University & Russian International Studies Association, September 2001."
+      - bullet: "Chair, Annual Conference of the Kennan Institute Russian Alumni Association, 2001."
+
+    Professional Service:
+      - name: "**Russian Society of the Historians of the U.S.A.** — Council member (since 2012)."
+        icon: fa-solid fa-users
+
+      - name: "**PONARS Eurasia** (Program on New Approaches to Research and Security in Eurasia) — Member since 1999; Executive Committee 2003–2005."
+        icon: fa-solid fa-users
+
+      - name: "**ASEEES** (Association for Slavic, East European, and Eurasian Studies) — Member since 2012."
+        icon: fa-solid fa-users
+
+      - name: "**Vol'noe Istoricheskoe Obshchestvo** (Free Historical Society) — Founding member; Council member (2014–2022; activities frozen in 2022)."
+        icon: fa-solid fa-users
+
+      - name: "**Kennan Institute Russian Alumni Association** — Head of Council (2008–2015)."
+        icon: fa-solid fa-users
+
+    Non-Academic Assessment:
+      - bullet: "**2017 – 2022 —** Russian Foundation of Presidential Grants — NGO projects in public history (assessment)."
+      - bullet: "**2006, 2007, 2008, 2013 —** European Commission, Directorate-General for Education and Culture — TEMPUS-III-Tacis, TEMPUS-IV, and Marie Curie programme academic expert (assessment of joint European university-cooperation projects)."
+      - bullet: "**1999 – 2001 —** Lower Volga region, Open Society Institute (Soros Foundation) — coordinator (grant evaluation and monitoring)."
+
+    Academic Persecution and Current Status:
+      - bullet: "In **March 2024**, dismissed from the European University at St. Petersburg after publicly opposing Russia's war against Ukraine and signing an anti-war petition. The dismissal was formally justified as \"absenteeism,\" despite an approved sabbatical to work at a U.S. institution. [The Moscow Times, 5 March 2024](https://www.themoscowtimes.com/2024/03/05/anti-war-historian-fired-from-st-petersburgs-european-university-a84342)."
+      - bullet: "In **January 2026**, designated a \"foreign agent\" by the Russian Ministry of Justice. The status imposes severe legal and professional restrictions, including a ban on teaching and public educational activity, financial reporting requirements, and limitations on receiving income from intellectual work. [RASA statement of support](https://t-invariant.org/2026/01/rasa-statement-in-support-of-professor-ivan-kurilla/)."
 
     Languages:
-      - name: German
+      - name: Russian
         summary: "Native speaker"
 
       - name: English
         summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
