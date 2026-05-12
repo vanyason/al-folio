@@ -66,8 +66,8 @@
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
-    bottom: v.$back-to-top-bottom;
-    right: v.$back-to-top-right;
+    bottom: calc(#{v.$back-to-top-bottom} + env(safe-area-inset-bottom));
+    right: calc(#{v.$back-to-top-right} + env(safe-area-inset-right));
     height: v.$back-to-top-height;
     width: v.$back-to-top-width;
     z-index: v.$back-to-top-z-index;
