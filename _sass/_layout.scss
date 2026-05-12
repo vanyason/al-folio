@@ -30,29 +30,6 @@ body {
   }
 }
 
-// Reveal-on-scroll animation for card sections (CV + Publications)
-.reveal-on-scroll {
-  opacity: 0;
-  transform: translateY(16px);
-  transition:
-    opacity 0.5s ease-out,
-    transform 0.5s ease-out;
-  will-change: opacity, transform;
-}
-
-.reveal-on-scroll.is-visible {
-  opacity: 1;
-  transform: none;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .reveal-on-scroll {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-}
-
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
   padding-top: 57px;

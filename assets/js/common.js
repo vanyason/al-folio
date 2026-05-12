@@ -32,30 +32,6 @@ $(document).ready(function () {
     });
   }
 
-  // Reveal-on-scroll animation for CV / Publications card sections
-  if ("IntersectionObserver" in window) {
-    var revealTargets = document.querySelectorAll(".post .card.mt-3.p-3");
-    if (revealTargets.length) {
-      revealTargets.forEach(function (el) {
-        el.classList.add("reveal-on-scroll");
-      });
-      var revealObserver = new IntersectionObserver(
-        function (entries, observer) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("is-visible");
-              observer.unobserve(entry.target);
-            }
-          });
-        },
-        { rootMargin: "0px 0px -10% 0px", threshold: 0.1 }
-      );
-      revealTargets.forEach(function (el) {
-        revealObserver.observe(el);
-      });
-    }
-  }
-
   // add css to jupyter notebooks
   const cssLink = document.createElement("link");
   cssLink.href = "../css/jupyter.css";
