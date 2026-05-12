@@ -39,9 +39,7 @@ max_width: 930px
 
 collections:
   news:
-    defaults:
-      layout: post
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -61,7 +59,10 @@ kramdown:
 
 include: ["_pages", "_scripts"]
 exclude:
+  - AGENTS.md
+  - ANALYTICS.md
   - bin/
+  - CLAUDE.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -75,7 +76,11 @@ exclude:
   - package.json
   - package-lock.json
   - purgecss.config.js
+  - QUICKSTART.md
   - README.md
+  - requirements.txt
+  - SEO.md
+  - TROUBLESHOOTING.md
   - UNUSED.md
   - vendor
 keep_files:
