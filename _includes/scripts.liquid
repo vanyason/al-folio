@@ -80,11 +80,6 @@
     crossorigin="anonymous"
   ></script>
   <script src="{{ '/assets/js/mathjax-setup.js' | relative_url | bust_file_cache }}"></script>
-  <script
-    defer
-    src="{{ site.third_party_libraries.polyfill.url.js }}"
-    crossorigin="anonymous"
-  ></script>
 {% endif %}
 
 {% if site.enable_progressbar %}
@@ -135,5 +130,18 @@
   <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url | bust_file_cache }}"></script>
   <script>
     addBackToTop();
+    (function () {
+      var btn = document.getElementById("back-to-top");
+      if (!btn) return;
+      btn.setAttribute("role", "button");
+      btn.setAttribute("tabindex", "0");
+      btn.setAttribute("aria-label", "Back to top");
+      btn.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          btn.click();
+        }
+      });
+    })();
   </script>
 {% endif %}

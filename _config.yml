@@ -8,17 +8,14 @@ middle_name:
 last_name: Kurilla
 contact_note: >
   Best reached by email at the personal address below.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >
   Historian of U.S.–Russian relations and the politics of memory. Visiting Professor of History at The Ohio State University (2025–2026).
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Ivan Kurilla, U.S.-Russian relations, American history, historical memory, politics of history, Russian historians, American Civil War
 lang: en
 icon: favicon.svg
 
 url: https://vanyason.github.io
-baseurl: /al-folio/
+baseurl: /al-folio
 last_updated: false
 impressum_path:
 back_to_top: true
@@ -28,7 +25,6 @@ back_to_top: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
 bib_search: true
 
 max_width: 930px
@@ -325,10 +321,6 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
     version: "5.4.4"
-  polyfill:
-    url:
-      js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
-    version: "3"
   spotlight:
     integrity:
       css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="

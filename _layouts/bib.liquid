@@ -29,16 +29,26 @@
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% capture preview_relpath %}assets/img/publication_preview/{{ entry.preview }}{% endcapture %}
+          {% capture preview_exists %}{% file_exists {{ preview_relpath }} %}{% endcapture %}
+          {% if preview_exists == 'true' %}
+            {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+            {% assign entry_alt = entry.preview %}
+            {% assign avoid_scaling = true %}
+          {% else %}
+            {% assign entry_path = '/assets/img/publication_preview/nocover.svg' %}
+            {% assign entry_alt = 'No cover available' %}
+            {% assign avoid_scaling = true %}
+          {% endif %}
           {%
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes="200px"
             class="preview z-depth-1 rounded"
             zoomable=true
-            avoid_scaling=true
-            alt=entry.preview
+            avoid_scaling=avoid_scaling
+            alt=entry_alt
           %}
         {% endif %}
       {% endif %}
