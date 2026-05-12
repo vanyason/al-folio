@@ -18,17 +18,6 @@
   crossorigin="anonymous"
 >
 
-{% if page.pretty_table %}
-  <!-- Bootstrap Table -->
-  <link
-    defer
-    rel="stylesheet"
-    href="{{ site.third_party_libraries.bootstrap-table.url.css }}"
-    integrity="{{ site.third_party_libraries.bootstrap-table.integrity.css }}"
-    crossorigin="anonymous"
-  >
-{% endif %}
-
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
@@ -81,54 +70,3 @@
   </script>
 {% endif %}
 
-{% if page.images %}
-  {% if page.images.compare %}
-    <!-- Image comparison slider -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.img-comparison-slider.url.css }}"
-      integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.lightbox2 %}
-    <!-- Lightbox2 -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.lightbox2.url.css }}"
-      integrity="{{ site.third_party_libraries.lightbox2.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.photoswipe %}
-    <!-- Photoswipe -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.photoswipe.url.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.slider %}
-    <!-- Image slider -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.swiper.url.css }}"
-      integrity="{{ site.third_party_libraries.swiper.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.spotlight %}
-    <!-- Spotlight -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.spotlight.url.css }}"
-      integrity="{{ site.third_party_libraries.spotlight.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-{% endif %}

@@ -25,3 +25,36 @@
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
+
+{%- capture page_title -%}
+  {% if page.title != 'blank' and page.url != '/' and page.title != null and page.title != '' -%}
+    {{ page.title }} | {{ title }}
+  {%- else -%}
+    {{ title }}
+  {%- endif %}
+{%- endcapture -%}
+{%- capture page_description -%}{% if page.description %}{{ page.description }}{% else %}{{ site.description | strip_newlines | strip }}{% endif %}{%- endcapture -%}
+{%- if page.og_image -%}
+  {%- assign og_image_path = page.og_image | prepend: '/assets/img/' -%}
+{%- elsif page.profile.image -%}
+  {%- assign og_image_path = page.profile.image | prepend: '/assets/img/' -%}
+{%- else -%}
+  {%- assign og_image_path = '/assets/img/prof_pic.jpg' -%}
+{%- endif -%}
+{%- assign og_image_url = og_image_path | absolute_url -%}
+{%- assign page_url = page.url | replace: 'index.html', '' | absolute_url -%}
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ author_name }}">
+<meta property="og:title" content="{{ page_title | strip }}">
+<meta property="og:description" content="{{ page_description | strip }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:image" content="{{ og_image_url }}">
+<meta property="og:locale" content="{{ site.lang | default: 'en' | replace: '-', '_' }}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title | strip }}">
+<meta name="twitter:description" content="{{ page_description | strip }}">
+<meta name="twitter:image" content="{{ og_image_url }}">

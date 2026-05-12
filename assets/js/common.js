@@ -36,4 +36,20 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  $(".more-authors").click(function () {
+    var $el = $(this);
+    $el.attr("title", "");
+    var showText = $el.data("authors-show");
+    var hideText = $el.data("authors-hide");
+    var nextText = $el.text() === hideText ? showText : hideText;
+    var delay = parseInt($el.data("animation-delay"), 10) || 10;
+    var cursorPosition = 0;
+    var textAdder = setInterval(function () {
+      $el.html(nextText.substring(0, cursorPosition + 1));
+      if (++cursorPosition === nextText.length) {
+        clearInterval(textAdder);
+      }
+    }, delay);
+  });
 });
