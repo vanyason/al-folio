@@ -48,7 +48,7 @@ layout: default
         <div class="card mt-3 p-3">
           <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
           <div>
-            {% if section_title == 'Experience' %}
+            {% if section_title == 'Experience' or section_title == 'Current Position / Academic Appointments' or section_title == 'Administrative and Institutional Service' %}
               {% assign empty_array = '' | split: ',' %}
               {% assign vol = cv.sections.Volunteer | default: empty_array %}
               {% assign entries = section_entries | concat: vol %}
@@ -56,7 +56,7 @@ layout: default
             {% elsif section_title == 'Education' %}
               {% assign entries = section_entries %}
               {% include cv/education.liquid %}
-            {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
+            {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' or section_title == 'Awards and Honors' %}
               {% assign entries = section_entries %}
               {% include cv/awards.liquid %}
             {% elsif section_title == 'Languages' %}

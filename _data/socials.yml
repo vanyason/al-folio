@@ -2,8 +2,15 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 email: ivan.i.kurilla@gmail.com
+linkedin_username: ivan-kurilla-66328b5
+facebook_id: ivan.kurilla.9
 orcid_id: 0000-0001-7144-2007
 scholar_userid: 4jIiDP0AAAAJ
 scopus_id: 6506154601
-linkedin_username: ivan-kurilla-66328b5
-facebook_id: ivan.kurilla.9
+academia_edu:
+  organization: osu
+  username: IvanKurilla
+russian_wikipedia:
+  logo: fa-brands fa-wikipedia-w
+  url: https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D0%B8%D0%BB%D0%BB%D0%B0,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87
+  title: Russian Wikipedia

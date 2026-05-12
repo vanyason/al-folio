@@ -22,46 +22,7 @@ cv:
     countryCode: US
 
   sections:
-    Awards:
-      - title: Prosvetitel Award (Best non-fiction book in Russian, 2024)
-        authors:
-          - Prosvetitel Foundation
-        date: 2024
-        awarder: Prosvetitel Foundation
-        summary: "For *Americans and All the Rest: Origin and Meaning of the U.S. Foreign Policy* (Alpina, 2024)."
-
-      - title: Politprosvet Award — Shortlist
-        authors:
-          - Politprosvet Foundation
-        date: 2022
-        awarder: Politprosvet Foundation
-        summary: "For *Battle for the Past: How Politics Changes History* (Alpina, 2022)."
-
-      - title: Prosvetitel Award — Longlist
-        date: 2018
-        awarder: Prosvetitel Foundation
-        summary: For *Frenemies* (NLO, 2018).
-
-      - title: Prosvetitel Award — Shortlist
-        date: 2017
-        awarder: Prosvetitel Foundation
-        summary: For *History, or the Past in Present* (EU Press, 2017).
-
-      - title: Fulbright Visiting Scholar
-        date: 2001
-        awarder: Fulbright Program
-        summary: History Department, Dartmouth College.
-
-    Current Research Projects:
-      - bullet: "**On the publication stage —** *[Echoes of the American Civil War Abroad: Perceptions, Identities, and Historical Memory](https://www.bloomsbury.com/us/echoes-of-the-american-civil-war-abroad-9781666920314/)*, coedited with Victoria Zhuravleva (Bloomsbury, forthcoming September 2026)."
-
-      - bullet: "**On the publication stage —** *Americans and All the Rest: Identity and Foreign Policy in U.S. History* — English translation of the Prosvetitel-winning Russian original (Palgrave Macmillan, forthcoming June 2026)."
-
-      - bullet: "**On the research stage —** *Routledge Handbook of Contemporary Russian History*, co-edited with Vladimir Gel'man and Sari Autio-Sarasmo (both Helsinki University, Finland), under contract with Routledge."
-
-      - bullet: "**On the research stage —** *Russia and the American Civil War* — book-length project."
-
-    Experience:
+    Current Position / Academic Appointments:
       - company: The Ohio State University
         position: Visiting Professor of History
         location: Columbus, Ohio, US
@@ -97,9 +58,6 @@ cv:
         location: St. Petersburg, Russia
         start_date: 2015
         end_date: 2024
-        highlights:
-          - Director, Program of Regional Cooperation (2015–2022)
-          - Academic Director, IMARES (International Master of Arts in Russian and Eurasian Studies, 2016–2022)
 
       - company: St. Petersburg State University, Smolny Faculty of Liberal Arts and Sciences
         position: Professor
@@ -108,12 +66,10 @@ cv:
         end_date: 2015-06
 
       - company: Volgograd State University
-        position: Professor; Head, Department of International Relations and Area Studies
+        position: Professor
         location: Volgograd, Russia
         start_date: 2006
         end_date: 2015
-        highlights:
-          - Head, Center for North American Studies *Americana* (2008–2015)
 
       - company: George Washington University, Institute for European, Russian and Eurasian Studies
         position: Visiting Scholar
@@ -126,9 +82,6 @@ cv:
         location: Volgograd, Russia
         start_date: 1995
         end_date: 2006
-        highlights:
-          - Vice Rector for International Programs (2002–2003)
-          - Deputy Dean, Department of History and Philosophy (1995–1998)
 
       - company: Institute of Universal History, Russian Academy of Sciences
         position: Research Fellow, Center for North American Studies
@@ -183,7 +136,46 @@ cv:
         start_date: 1986
         end_date: 1991
 
-    Teaching — In English:
+    Current Research Projects:
+      - bullet: "**On the publication stage —** *[Echoes of the American Civil War Abroad: Perceptions, Identities, and Historical Memory](https://www.bloomsbury.com/us/echoes-of-the-american-civil-war-abroad-9781666920314/)*, coedited with Victoria I. Zhuravleva (Bloomsbury, forthcoming September 2026)."
+
+      - bullet: "**On the publication stage —** *Americans and All the Rest: Identity and Foreign Policy in U.S. History* — English translation of the Prosvetitel-winning Russian original (Palgrave Macmillan, forthcoming June 2026)."
+
+      - bullet: "**On the research stage —** *Routledge Handbook of Contemporary Russian History*, co-edited with Vladimir Gel'man and Sari Autio-Sarasmo (both Helsinki University, Finland), under contract with Routledge."
+
+      - bullet: "**On the research stage —** *Russia and the American Civil War* — book-length project."
+
+    Awards and Honors:
+      - title: Prosvetitel Award (Best non-fiction book in Russian, 2024)
+        authors:
+          - Prosvetitel Foundation
+        date: 2024
+        awarder: Prosvetitel Foundation
+        summary: "For *Americans and All the Rest: Origin and Meaning of the U.S. Foreign Policy* (Alpina, 2024)."
+
+      - title: Politprosvet Award — Shortlist
+        authors:
+          - Politprosvet Foundation
+        date: 2022
+        awarder: Politprosvet Foundation
+        summary: "For *Battle for the Past: How Politics Changes History* (Alpina, 2022)."
+
+      - title: Prosvetitel Award — Longlist
+        date: 2018
+        awarder: Prosvetitel Foundation
+        summary: For *Frenemies* (NLO, 2018).
+
+      - title: Prosvetitel Award — Shortlist
+        date: 2017
+        awarder: Prosvetitel Foundation
+        summary: For *History, or the Past in Present* (EU Press, 2017).
+
+      - title: Fulbright Visiting Scholar
+        date: 2001
+        awarder: Fulbright Program
+        summary: History Department, Dartmouth College.
+
+    Teaching in English:
       - bullet: "*Civil War and Reconstruction: Global Perspectives* (BA) — The Ohio State University, Spring 2026."
       - bullet: "*History of U.S.–Russian Relations* (BA) — The Ohio State University, Spring 2026."
       - bullet: "*Uses & Misuses of History: History, Memory, & Politics in Contemporary World* (BA) — The Ohio State University, Autumn 2025."
@@ -193,7 +185,7 @@ cv:
       - bullet: "*Historical Memory and Historical Politics* (BA) — Smolny (SPbU–Bard), Spring 2015."
       - bullet: "*Introduction into Russian History* (BA, U.S. Exchange students) — Volgograd State University, 1993–2010."
 
-    Teaching — In Russian:
+    Teaching in Russian:
       - bullet: "*Russian–U.S. Relations throughout History and to the Present* (MA in Russian) — The Ohio State University, Fall 2025."
       - bullet: "*History of Russian–American Relations* (MA) — Middlebury College Summer Language School, 2025."
       - bullet: "*Battle for the Past: Use and Misuse of History* (MA) — Middlebury College Summer Language School, 2025."
@@ -201,6 +193,43 @@ cv:
       - bullet: "*Introduction into American Studies* (Political Science) — European University at St. Petersburg, 2015–2023."
       - bullet: "**Volgograd State University, 1992–2014 —** *U.S. History* (BA, American Studies, 1999–2014); *History of Historical Knowledge* (BA, History, 1993–2014); *Modern History of Europe and America* (1992–1999)."
       - bullet: "Advised students' MA (in Russian and English) and *Kandidatskaya* (PhD-equivalent) dissertations."
+
+    Administrative and Institutional Service:
+      - company: European University at St. Petersburg
+        position: Director, Program of Regional Cooperation
+        location: St. Petersburg, Russia
+        start_date: 2015
+        end_date: 2022
+
+      - company: European University at St. Petersburg
+        position: Academic Director, IMARES (International Master of Arts in Russian and Eurasian Studies)
+        location: St. Petersburg, Russia
+        start_date: 2016
+        end_date: 2022
+
+      - company: Volgograd State University
+        position: Head, Center for North American Studies *Americana*
+        location: Volgograd, Russia
+        start_date: 2008
+        end_date: 2015
+
+      - company: Volgograd State University
+        position: Head, Department of International Relations and Area Studies
+        location: Volgograd, Russia
+        start_date: 2006
+        end_date: 2015
+
+      - company: Volgograd State University
+        position: Vice Rector for International Programs
+        location: Volgograd, Russia
+        start_date: 2002
+        end_date: 2003
+
+      - company: Volgograd State University
+        position: Deputy Dean, Department of History and Philosophy
+        location: Volgograd, Russia
+        start_date: 1995
+        end_date: 1998
 
     Editorial Boards:
       - name: "*Americana* (Volgograd State University) — Editor-in-Chief, vols. 10–16 (2008–2021); Deputy Chief Editor, vols. 1–9 (1997–2007)."
@@ -224,7 +253,7 @@ cv:
     Conferences Organized:
       - bullet: "Chair, *Americans in Revolutionary Petrograd* (International), St. Petersburg, October 2017."
       - bullet: "Chair, *Russia and the American Civil War* (All-Russian), Volgograd, October 2011."
-      - bullet: "Co-chair (with Victoria Zhuravleva), *Russian/Soviet Studies in the United States, American Studies in Russia: Mutual Representations* (International), Russian State University for the Humanities, Moscow, February 2011."
+      - bullet: "Co-chair (with Victoria I. Zhuravleva), *Russian/Soviet Studies in the United States, American Studies in Russia: Mutual Representations* (International), Russian State University for the Humanities, Moscow, February 2011."
       - bullet: "Chair, *Concept of Human Security in Canada and Russia* (International), 2009."
       - bullet: "Chair, *Russia and Countries of the American Continent: The Experience of Historical Relationships* (International), 2007."
       - bullet: "Chair, *10 Years of the Commonwealth of Independent States* (International), Volgograd State University & Russian International Studies Association, September 2001."
@@ -246,7 +275,7 @@ cv:
       - name: "**Kennan Institute Russian Alumni Association** — Head of Council (2008–2015)."
         icon: fa-solid fa-users
 
-    Non-Academic Assessment:
+    Public Commentary / Non-Academic Assessment:
       - bullet: "**2017 – 2022 —** Russian Foundation of Presidential Grants — NGO projects in public history (assessment)."
       - bullet: "**2006, 2007, 2008, 2013 —** European Commission, Directorate-General for Education and Culture — TEMPUS-III-Tacis, TEMPUS-IV, and Marie Curie programme academic expert (assessment of joint European university-cooperation projects)."
       - bullet: "**1999 – 2001 —** Lower Volga region, Open Society Institute (Soros Foundation) — coordinator (grant evaluation and monitoring)."
