@@ -448,6 +448,12 @@ nav[data-toggle="toc"] {
   z-index: 1;
 }
 
+@media (max-width: 575.98px) {
+  #toc-sidebar {
+    display: none;
+  }
+}
+
 .echarts {
   height: 400px;
   width: 100%;
