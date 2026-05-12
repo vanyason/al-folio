@@ -55,16 +55,6 @@ layout: default
       </section>
     {% endif %}
 
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <hr class="about-divider">
-      <section class="about-latest-posts">
-        <h2 class="about-section-title">
-          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-        </h2>
-        {% include latest_posts.liquid %}
-      </section>
-    {% endif %}
-
     {% if page.selected_papers %}
       <hr class="about-divider">
       <section class="about-selected-papers">
@@ -75,8 +65,5 @@ layout: default
       </section>
     {% endif %}
 
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
   </article>
 </div>
