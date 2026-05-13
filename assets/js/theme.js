@@ -27,7 +27,6 @@ let applyTheme = () => {
 
   transTheme();
   setHighlight(theme);
-  setGiscusTheme(theme);
   setSearchTheme(theme);
   setCookieConsentTheme(theme);
   updateCalendarUrl();
@@ -85,20 +84,6 @@ let setHighlight = (theme) => {
     document.getElementById("highlight_theme_dark").media = "none";
     document.getElementById("highlight_theme_light").media = "";
   }
-};
-
-let setGiscusTheme = (theme) => {
-  function sendMessage(message) {
-    const iframe = document.querySelector("iframe.giscus-frame");
-    if (!iframe) return;
-    iframe.contentWindow.postMessage({ giscus: message }, "https://giscus.app");
-  }
-
-  sendMessage({
-    setConfig: {
-      theme: theme,
-    },
-  });
 };
 
 let addMermaidZoom = (records, observer) => {
