@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ivankurilla.com/sitemap.xml
+Sitemap: https://kurilla.site/sitemap.xml
