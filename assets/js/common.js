@@ -37,6 +37,34 @@ $(document).ready(function () {
     trigger: "hover",
   });
 
+  // Animate closing of <details class="older-news"> (open already animates via CSS)
+  document.querySelectorAll("details.older-news").forEach(function (details) {
+    var summary = details.querySelector("summary");
+    if (!summary) return;
+    summary.addEventListener("click", function (e) {
+      if (!details.open) return; // opening: let CSS keyframes run
+      e.preventDefault();
+      var body = details.querySelector(".table-responsive");
+      if (!body) {
+        details.open = false;
+        return;
+      }
+      if (body.dataset.closing === "1") return;
+      body.dataset.closing = "1";
+      body.style.transformOrigin = "top";
+      body.animate(
+        [
+          { opacity: 1, transform: "translateY(0)" },
+          { opacity: 0, transform: "translateY(-6px)" },
+        ],
+        { duration: 220, easing: "ease-in" }
+      ).onfinish = function () {
+        delete body.dataset.closing;
+        details.open = false;
+      };
+    });
+  });
+
   $(".more-authors").click(function () {
     var $el = $(this);
     $el.attr("title", "");

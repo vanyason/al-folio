@@ -43,7 +43,10 @@ layout: default
         </aside>
       {% endif %}
 
-      <div class="about-content">{{ content }}</div>
+      <div class="about-content">
+        <h2 class="about-section-title">About</h2>
+        {{ content }}
+      </div>
     </div>
 
     {% if page.announcements and page.announcements.enabled %}

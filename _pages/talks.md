@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks & Media
 nav: true
 nav_order: 4
-description: Public lectures and podcasts, op-eds and commentary, policy memos.
+description: Public lectures, podcasts, op-eds, commentary, and policy memos.
 toc:
   sidebar: left
 ---

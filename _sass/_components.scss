@@ -97,7 +97,7 @@ ul.task-list input[type="checkbox"] {
     width: 100%;
     margin-bottom: 1.5rem;
     padding: 1.5rem;
-    background-color: var(--global-card-bg-color);
+    background-color: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
     border-radius: 12px;
     text-align: center;
@@ -177,6 +177,7 @@ ul.task-list input[type="checkbox"] {
   .about-content {
     font-size: 1.1rem;
     line-height: 1.7;
+    max-width: 70ch;
 
     > :first-child {
       margin-top: 0;
@@ -202,6 +203,7 @@ ul.task-list input[type="checkbox"] {
   .about-latest-posts,
   .about-selected-papers {
     text-align: left;
+    max-width: 70ch;
 
     .publications h1 {
       text-align: left;
@@ -232,6 +234,63 @@ ul.task-list input[type="checkbox"] {
       flex: 1 1 0;
       min-width: 0;
     }
+  }
+}
+
+// News archive (collapsible)
+
+.older-news {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+
+  > summary {
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.1rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+    transition: color 0.2s ease;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.55rem;
+      height: 0.55rem;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      transform: rotate(-45deg) translate(-2px, -2px);
+      transition: transform 0.25s ease;
+    }
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  &[open] > summary::before {
+    transform: rotate(45deg);
+  }
+
+  &[open] > .table-responsive {
+    animation: older-news-reveal 0.3s ease-out;
+  }
+}
+
+@keyframes older-news-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
