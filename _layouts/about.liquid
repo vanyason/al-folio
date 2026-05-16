@@ -44,7 +44,9 @@ layout: default
       {% endif %}
 
       <div class="about-content">
-        <h2 class="about-section-title">About</h2>
+        {% unless page.permalink == '/' %}
+          <h2 class="about-section-title">About</h2>
+        {% endunless %}
         {{ content }}
       </div>
     </div>

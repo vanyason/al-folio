@@ -429,8 +429,8 @@ nav[data-toggle="toc"] {
 // Highlight search
 
 ::highlight(search) {
-  background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+  background-color: var(--global-search-highlight-bg);
+  color: var(--global-search-highlight-text);
 }
 
 // Other utilities
