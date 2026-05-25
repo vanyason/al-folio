@@ -3,7 +3,7 @@ layout: page
 permalink: /talks/
 title: Talks & Media
 nav: true
-nav_order: 4
+nav_order: 5
 description: Public lectures, podcasts, op-eds, commentary, and policy memos.
 toc:
   sidebar: left
