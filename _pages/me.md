@@ -4,7 +4,7 @@ title: Me
 permalink: /
 nav: true
 nav_order: 0
-subtitle: 'Doctor of Sciences (History), Professor. Visiting Professor of History, <a href="https://history.osu.edu/">The Ohio State University</a> (2025–2026).'
+subtitle: 'Doctor of Science (History), Visiting Professor of History, <a href="https://history.osu.edu/">The Ohio State University</a> (2025–2026).'
 
 profile:
   align: left
