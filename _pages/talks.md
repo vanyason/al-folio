@@ -11,6 +11,18 @@ toc:
 
 <div class="cv">
 
+<a class="anchor" id="selected-long-form-interviews"></a>
+
+<div class="card mt-3 p-3">
+  <h2 class="card-title font-weight-medium">Selected long-form interviews</h2>
+  <p class="card-text font-weight-light">Long-form public conversations on U.S. history, Russian-American relations, political memory, and contemporary Russia.</p>
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    <li class="list-group-item"><strong>2024 —</strong> <em>Shameful Questions About America</em> / <em>"Стыдные вопросы про Америку / вДудь"</em>, long-form interview with Yuri Dud / вДудь. A conversation on U.S. history, American identity, and Russian-American relations. In Russian, with English subtitles. <a href="https://youtu.be/SYYBKMyIjNw?si=oLk9t1FXraY6Cy5v" target="_blank" rel="noopener noreferrer">Watch on YouTube</a> (5.0 million views).</li>
+    <li class="list-group-item"><strong>2022 —</strong> <em>When Did the United States and Russia Fall Out, Who Started It, and Will There Be War with America?</em> / <em>"Иван Курилла: когда поссорились США и Россия, кто первым начал и будет ли война с Америкой?"</em>, long-form interview with Irina Shikhman / <em>А поговорить?</em>. A conversation on the history of U.S.-Russian relations, American politics, and the changing images of America and Russia. In Russian. <a href="https://youtu.be/FZ4n5nACe1A?si=fgAghv7ltDuYbYEK" target="_blank" rel="noopener noreferrer">Watch on YouTube</a> (1.4 million views).</li>
+    <li class="list-group-item"><strong>2024 —</strong> <em>Trump's Victory: What Will Happen to Russia, Ukraine, and China?</em> / <em>"Победа Трампа. Что будет с Россией, Украиной и Китаем? / Курилла, Иноземцев"</em>, long-form interview with Voice of America Russian, hosted by Marianna Minsker. A conversation on the uses of history, Russian public discourse, and U.S.-Russian relations after the 2024 U.S. presidential election. In Russian. <a href="https://www.youtube.com/watch?v=Iz44OrzzUg4&amp;t=174s" target="_blank" rel="noopener noreferrer">Watch on YouTube</a> (200,000 views).</li>
+  </ul>
+</div>
+
 <a class="anchor" id="lectures-and-talks"></a>
 
 <div class="card mt-3 p-3">
