@@ -55,3 +55,13 @@ toc:
     {% bibliography -q @*[category=translations] %}
   </div>
 </div>
+
+<div class="mt-4">
+  <p>
+    For a fuller record of publications, see:<br>
+    <a
+      href="{{ '/assets/pdf/Ivan_Kurilla_complete_publications_reformatted.pdf' | relative_url }}"
+      >Complete list of publications (PDF)</a
+    >
+  </p>
+</div>
