@@ -60,7 +60,7 @@ toc:
   <p>
     For a fuller record of publications, see:<br>
     <a
-      href="{{ '/assets/pdf/Ivan_Kurilla_complete_publications_reformatted.pdf' | relative_url }}"
+      href="{{ '/assets/pdf/Ivan_Kurilla_complete_publications_reformatted.pdf' | relative_url | bust_file_cache }}"
       >Complete list of publications (PDF)</a
     >
   </p>
