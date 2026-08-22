@@ -6,7 +6,7 @@ cv:
   location: Columbus, Ohio, USA
   image: ""
   summary: >
-    Historian of U.S.–Russian relations, American foreign policy, the international dimensions of the American Civil War, and the politics of memory in contemporary Russia. Visiting Professor of History at [The Ohio State University](https://history.osu.edu/) (2025–2026). [ORCID 0000-0001-7144-2007](https://orcid.org/0000-0001-7144-2007) · [Web of Science ResearcherID F-4725-2013](https://www.webofscience.com/wos/author/record/F-4725-2013). Op-eds, public lectures, and media appearances are listed on the [Talks & Media](/talks/) page.
+    Historian of U.S.–Russian relations, American foreign policy, the international dimensions of the American Civil War, and the politics of memory in contemporary Russia. Visiting Professor of History at [The Ohio State University](https://history.osu.edu/) (2025–2027). [ORCID 0000-0001-7144-2007](https://orcid.org/0000-0001-7144-2007) · [Web of Science ResearcherID F-4725-2013](https://www.webofscience.com/wos/author/record/F-4725-2013). Op-eds, public lectures, and media appearances are listed on the [Talks & Media](/talks/) page.
 
   social_networks:
     - network: ORCID
@@ -28,13 +28,14 @@ cv:
         position: Visiting Professor of History
         location: Columbus, Ohio, US
         start_date: 2025-08-15
-        end_date: 2026-08-14
+        end_date: 2027-08-14
 
       - company: Middlebury College, Summer Russian Language School
         position: Professor of History
         location: Middlebury, Vermont, US
         start_date: 2025-06
-        end_date: 2025-08
+        end_date: 2026-08
+        summary: Summer sessions, 2025 and 2026.
 
       - company: Wellesley College
         position: International Scholar in Residence
@@ -138,35 +139,33 @@ cv:
         end_date: 1991
 
     Current Research Projects:
-      - bullet: "**On the publication stage —** *[Echoes of the American Civil War Abroad: Perceptions, Identities, and Historical Memory](https://www.bloomsbury.com/us/echoes-of-the-american-civil-war-abroad-9781666920314/)*, coedited with Victoria I. Zhuravleva (Bloomsbury, forthcoming September 2026)."
+      - bullet: "**Russia and the American Civil War.** Russian-language manuscript completed in 2026; revision and expansion for an English-language edition in preparation. The project examines the political translation of American debates over emancipation, federalism, nationality, democracy, and international order in nineteenth-century Russia."
 
-      - bullet: "**On the publication stage —** *Americans and All the Rest: Identity and Foreign Policy in U.S. History* — English translation of the Prosvetitel-winning Russian original (Palgrave Macmillan, forthcoming June 2026)."
+      - bullet: "**Historical Narratives, National Identity, and Russian Foreign Policy (working title).** New book project on the relationship among changing interpretations of the past, conceptions of Russia's place in the international order, and foreign-policy choices from the late Soviet period to the present."
 
-      - bullet: "**On the research stage —** *Routledge Handbook of Contemporary Russian History*, co-edited with Vladimir Gel'man and Sari Autio-Sarasmo (both Helsinki University, Finland), under contract with Routledge."
-
-      - bullet: "**On the research stage —** *Russia and the American Civil War* — book-length project."
+      - bullet: "**Routledge Handbook of Contemporary Russian History.** Co-editor with Vladimir Gel'man and Sari Autio-Sarasmo; under contract with Routledge; project scheduled for completion in 2027."
 
     Awards and Honors:
-      - title: Prosvetitel Award (Best non-fiction book in Russian, 2024)
+      - title: Prosvetitel Prize (Best non-fiction book in Russian, 2024)
         authors:
           - Prosvetitel Foundation
         date: 2024
         awarder: Prosvetitel Foundation
         summary: "For *Americans and All the Rest: Origin and Meaning of the U.S. Foreign Policy* (Alpina, 2024)."
 
-      - title: Politprosvet Award — Shortlist
+      - title: Politprosvet Prize — Shortlist
         authors:
           - Politprosvet Foundation
         date: 2022
         awarder: Politprosvet Foundation
         summary: "For *Battle for the Past: How Politics Changes History* (Alpina, 2022)."
 
-      - title: Prosvetitel Award — Longlist
+      - title: Prosvetitel Prize — Longlist
         date: 2018
         awarder: Prosvetitel Foundation
         summary: For *Frenemies* (NLO, 2018).
 
-      - title: Prosvetitel Award — Shortlist
+      - title: Prosvetitel Prize — Shortlist
         date: 2017
         awarder: Prosvetitel Foundation
         summary: For *History, or the Past in Present* (EU Press, 2017).
@@ -188,6 +187,8 @@ cv:
 
     Teaching in Russian:
       - bullet: "*Russian–U.S. Relations throughout History and to the Present* (MA in Russian) — The Ohio State University, Fall 2025."
+      - bullet: "*Foreign Policy of Post-Soviet Russia, 1992–2026* (MA) — Middlebury College Summer Language School, 2026."
+      - bullet: "*World War II and Global Memory* (MA) — Middlebury College Summer Language School, 2026."
       - bullet: "*History of Russian–American Relations* (MA) — Middlebury College Summer Language School, 2025."
       - bullet: "*Battle for the Past: Use and Misuse of History* (MA) — Middlebury College Summer Language School, 2025."
       - bullet: "*History and Politics* (MA, Political Science) — European University at St. Petersburg, 2015–2023."
@@ -236,7 +237,7 @@ cv:
       - name: "*Americana* (Volgograd State University) — Editor-in-Chief, vols. 10–16 (2008–2021); Deputy Chief Editor, vols. 1–9 (1997–2007)."
         icon: fa-solid fa-book
 
-      - name: "*Amerikanskii Ezhegodnik* (American Yearbook, Russian Academy of Sciences) — Editorial Board (2008–present)."
+      - name: "*Amerikanskii Ezhegodnik* (American Yearbook, Russian Academy of Sciences) — Editorial Board (2008–2025)."
         icon: fa-solid fa-book
 
       - name: "[*The Journal of Russian American Studies*](https://newprairiepress.org/jrs/) — Editorial Board (2017–present)."

@@ -23,8 +23,15 @@
     >
       <table class="table table-sm table-borderless">
         {% for item in news limit: news_limit %}
+          {% assign display_date = item.display_date | default: item.date %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 20%">
+              {% if item.display_date %}
+                {{ display_date }}
+              {% else %}
+                {{ display_date | date: '%b %d, %Y' }}
+              {% endif %}
+            </th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
@@ -42,8 +49,15 @@
         <div class="table-responsive">
           <table class="table table-sm table-borderless">
             {% for item in news offset: recent_cutoff %}
+              {% assign display_date = item.display_date | default: item.date %}
               <tr>
-                <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+                <th scope="row" style="width: 20%">
+                  {% if item.display_date %}
+                    {{ display_date }}
+                  {% else %}
+                    {{ display_date | date: '%b %d, %Y' }}
+                  {% endif %}
+                </th>
                 <td>
                   {% if item.inline %}
                     {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}

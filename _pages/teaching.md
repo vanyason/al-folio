@@ -15,7 +15,7 @@ toc:
   </p>
 
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">The Ohio State University (2025–2026)</h3>
+    <h3 class="card-title font-weight-medium">The Ohio State University (2025–2027)</h3>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <em>Civil War and Reconstruction: Global Perspectives</em> (BA level)
@@ -39,6 +39,24 @@ toc:
           Examined how societies mobilize the past in politics, identity formation, and public culture. Topics included historical memory, trauma,
           monuments, museums, school curricula, memory laws, and comparative case studies with particular attention to Russia and the United States.
         </p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">Middlebury College Summer Russian Language School (2025, 2026)</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+        <em>Foreign Policy of Post-Soviet Russia, 1992–2026</em> (MA level, taught in Russian)
+      </li>
+      <li class="list-group-item">
+        <em>World War II and Global Memory</em> (MA level, taught in Russian)
+      </li>
+      <li class="list-group-item">
+        <em>History of Russian–American Relations</em> (MA level, taught in Russian)
+      </li>
+      <li class="list-group-item">
+        <em>Battle for the Past: Use and Misuse of History</em> (MA level, taught in Russian)
       </li>
     </ul>
   </div>

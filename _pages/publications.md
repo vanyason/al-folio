@@ -32,7 +32,7 @@ toc:
 <a class="anchor" id="articles-chapters"></a>
 
 <div class="card mt-3 p-3">
-  <h2 class="card-title font-weight-medium">Recent articles and book chapters in English</h2>
+  <h2 class="card-title font-weight-medium">Recent articles, book chapters, and reviews in English</h2>
   <div class="publications">
     {% bibliography -q @*[category=articles] %}
   </div>
