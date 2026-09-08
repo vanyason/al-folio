@@ -199,7 +199,15 @@
       {{ periodical | strip }}
     </div>
     <div class="periodical">
-      {{ entry.note | strip }}
+      {% assign display_note = entry.note | strip %}
+      {% if display_note != '' %}
+        {% if entry.note_link_text and entry.note_link_url %}
+          {% capture note_link %}<a href="{{ entry.note_link_url }}">{{ entry.note_link_text }}</a>{% endcapture %}
+          {{ display_note | replace_first: entry.note_link_text, note_link }}
+        {% else %}
+          {{ display_note }}
+        {% endif %}
+      {% endif %}
     </div>
 
     <!-- Links/Buttons -->

@@ -169,6 +169,8 @@ filtered_bibtex_keywords:
     eprint,
     hal,
     html,
+    note_link_text,
+    note_link_url,
     pdf,
     pmid,
     poster,
