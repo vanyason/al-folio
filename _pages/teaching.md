@@ -18,6 +18,13 @@ toc:
     <h3 class="card-title font-weight-medium">The Ohio State University (2025–2027)</h3>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
+        <em>Imperial Russia, 1689–1917</em> (BA level)
+        <p class="mb-0 mt-2">
+          Examines the Russian Empire from Peter the Great to the revolutions of 1917, focusing on autocracy, empire, reform, war, social change,
+          and the political crises that ultimately brought down the imperial order.
+        </p>
+      </li>
+      <li class="list-group-item">
         <em>Civil War and Reconstruction: Global Perspectives</em> (BA level)
         <p class="mb-0 mt-2">
           Explored the U.S. Civil War and Reconstruction as both a national crisis and a global event, with attention to slavery, emancipation,
