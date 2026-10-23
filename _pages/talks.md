@@ -29,6 +29,7 @@ toc:
 <div class="card mt-3 p-3">
   <h2 class="card-title font-weight-medium">Select lectures and talks</h2>
   <ul class="card-text font-weight-light list-group list-group-flush">
+    <li class="list-group-item"><strong>2026 —</strong> Online discussion, <em>Winning the Cold War, Losing the Peace?</em>, with Kathleen Collins, Natalia Krylova, and Sean Warner, hosted by East-West Connections. <a href="https://youtu.be/M-I66Zp8GgA" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</li>
     <li class="list-group-item"><strong>2026 —</strong> Online discussion with David S. Foglesong on the history of Russian-American relations and our book <em>Distant Friends and Intimate Enemies</em>, hosted by East-West Connections and moderated by Todd Lefko. <a href="https://www.youtube.com/watch?v=WeyJD9pnlSk" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</li>
     <li class="list-group-item"><strong>2024 —</strong> Wellesley College, <em>The Cornille Lecture: Political Use and Misuse of the Past in Russia, America, and Elsewhere</em>, 30 April 2024. <a href="https://www1.wellesley.edu/newhouse/events/node/206941" target="_blank" rel="noopener noreferrer">Event page</a>.</li>
     <li class="list-group-item"><strong>2024 —</strong> Wellesley College &amp; Harvard Davis Center, <em>What the Russian People Think About the War and Its Mastermind</em>, 15 February 2024. <a href="https://daviscenter.fas.harvard.edu/about/people/ivan-kurilla" target="_blank" rel="noopener noreferrer">Davis Center profile</a>.</li>
